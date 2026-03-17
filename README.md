@@ -1,1 +1,22 @@
-Personal Portfolio WebsiteWelcome to the repository for my personal portfolio website! This project is a clean, responsive, and lightweight personal website built entirely using HTML and CSS—without relying on any JavaScript.🚀 FeaturesPure HTML & CSS: Fast, lightweight, and easy to maintain without any JavaScript overhead.Responsive Design: Adapts beautifully to desktop, tablet, and mobile screens.CSS-Only Modal: Features a clever CSS :target trick to display a full-screen "About Me / Contact" overlay without needing JavaScript.Custom Vector Graphics: Uses inline SVGs for the cloud and mountain illustrations to ensure crisp visuals on any display.Typography: Integrates Google Fonts (Merriweather, Montserrat, and Sacramento) for elegant and readable text.🛠️ Technologies UsedHTML5CSS3Google Fonts💻 How to Run LocallySince this project contains no server-side code or complex build tools, viewing it is incredibly simple:Clone or download this repository to your local machine.Navigate to the project folder.Double-click the index.html file to open it in your default web browser.🎨 How to CustomizeIf you want to use this template for your own portfolio, follow these steps to customize the index.html file:Personal Info: Search for "Rohit" in the file and replace it with your own name. Update the <title> tag in the <head> section as well.Images: Search for the <img src="..."> tags. Replace the Unsplash placeholder URLs with links to your own images or local file paths (e.g., images/my-profile.jpg).Skills & Bio: Update the text within the .skill-text and .intro sections to reflect your actual experiences and hobbies.Contact Overlay: Scroll to the bottom of the HTML file to find the <div id="contact-page"> section. Update the email address, location, and biography details.Social Links: In the <div class="bottom-container"> (Footer), replace the LinkedIn URL with your own profile link.Colors: You can change the website's color scheme by modifying the hex codes in the <style> block (e.g., #66BFBF, #11999E, #E4F9F5).👨‍💻 AuthorRohit M HudgeiOS and Web DeveloperLinkedIn Profile
+# Personal Portfolio Website
+Welcome to the repository for my personal portfolio website! This project is a clean, responsive, and lightweight personal website built entirely using HTML and CSS—without relying on any JavaScript.
+
+# Features
+Pure HTML & CSS: Fast, lightweight, and easy to maintain without any JavaScript overhead.
+
+Responsive Design: Adapts beautifully to desktop, tablet, and mobile screens.
+
+CSS-Only Modal: Features a clever CSS :target trick to display a full-screen "About Me / Contact" overlay without needing JavaScript.
+
+Custom Vector Graphics: Uses inline SVGs for the cloud and mountain illustrations to ensure crisp visuals on any display.
+
+Typography: Integrates Google Fonts (Merriweather, Montserrat, and Sacramento) for elegant and readable text.
+
+# Technologies Used
+HTML5
+CSS3
+Google Fonts
+
+# Author
+Rohit M Hudge
+Web Developer
