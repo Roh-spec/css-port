@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+    <!-- TOP CONTAINER -->
+    <div class="top-container">
+        <!-- SVG Cloud 1 -->
+        <svg class="top-cloud" viewBox="0 0 24 24" fill="#BBE1FA" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.5 19C19.9853 19 22 16.9853 22 14.5C22 12.1325 20.1764 10.2038 17.8646 10.0211C17.3734 6.60252 14.4374 4 11 4C7.13401 4 4 7.13401 4 11C4 11.2338 4.01142 11.4648 4.03358 11.6922C2.28221 12.3392 1 14.0207 1 16C1 18.2091 2.79086 20 5 20H17.5V19Z" fill="#fff"/>
+        </svg>
+
+        <h1>I'm Rohit.</h1>
+        <h2>a <span class="pro">pro</span>grammer.</h2>
+
+        <!-- SVG Cloud 2 -->
+        <svg class="bottom-cloud" viewBox="0 0 24 24" fill="#BBE1FA" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.5 19C19.9853 19 22 16.9853 22 14.5C22 12.1325 20.1764 10.2038 17.8646 10.0211C17.3734 6.60252 14.4374 4 11 4C7.13401 4 4 7.13401 4 11C4 11.2338 4.01142 11.4648 4.03358 11.6922C2.28221 12.3392 1 14.0207 1 16C1 18.2091 2.79086 20 5 20H17.5V19Z" fill="#fff"/>
+        </svg>
+        
+        <!-- SVG Mountain -->
+        <svg class="mountain-img" viewBox="0 0 512 256" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="100,256 256,50 412,256" fill="#D2E8E6" />
+            <polygon points="256,50 320,130 256,150 192,130" fill="#ffffff" />
+            <polygon points="0,256 120,100 240,256" fill="#AED9D6" />
+            <polygon points="120,100 160,150 120,165 80,150" fill="#ffffff" />
+            <polygon points="280,256 400,120 512,256" fill="#AED9D6" />
+            <polygon points="400,120 440,170 400,185 360,170" fill="#ffffff" />
+        </svg>
+    </div>
+
+    <!-- MIDDLE CONTAINER -->
+    <div class="middle-container">
+        
+        <!-- Profile Section -->
+        <div class="profile">
+            <!-- Using an Unsplash placeholder image, replace the src with your own photo -->
+            <img class="profile-img" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=400&q=80" alt="Profile Picture">
+            <h2>Hello.</h2>
+            <p class="intro">I am an iOS and Web Developer. I love building beautiful and functional applications. I also enjoy brewing specialty coffee in my free time.</p>
+        </div>
+
+        <hr style="border: dotted #EAF6F6 6px; border-bottom: none; width: 4%; margin: 60px auto;">
+
+        <!-- Skills Section -->
+        <div class="skills">
+            <h2>My Skills.</h2>
+            
+            <div class="skill-row">
+                <!-- Using an Unsplash placeholder for coding -->
+                <img class="skill-img" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80" alt="Coding Image">
+                <div class="skill-text">
+                    <h3>Design & Development</h3>
+                    <p>I started learning to code because I wanted to create my own video games. Since then, I've gained a wealth of experience designing and developing web and mobile applications from scratch.</p>
+                </div>
+            </div>
+
+            <div class="skill-row reverse">
+                <!-- Using an Unsplash placeholder for a fun interest -->
+                <img class="skill-img" src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=400&q=80" alt="Coffee Image">
+                <div class="skill-text">
+                    <h3>Coffee Brewing</h3>
+                    <p>But my best skill is actually brewing the perfect cup of coffee. I am the undisputed champion of latte art among my friends. Hand-poured V60s and rich espressos are my daily drivers.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr style="border: dotted #EAF6F6 6px; border-bottom: none; width: 4%; margin: 60px auto;">
+
+        <!-- Contact Section -->
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you love coffee as much as I do.</h3>
+            <p class="contact-message">Love coding and coffee? Let's talk about how awesome they are! We can write some code while we enjoy a freshly brewed cup.</p>
+            <a class="btn" href="#contact-page">CONTACT ME</a>
+        </div>
+
+    </div>
+
+    <!-- BOTTOM CONTAINER / FOOTER -->
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/rohit-m-hudge-0a5b98333" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <p class="copyright">© 2026 Rohit.</p>
+    </div>
+
+    <!-- CONTACT INFO PAGE (CSS OVERLAY) -->
+    <div id="contact-page">
+        <a href="#" class="close-btn" aria-label="Close">&times;</a>
+        <div class="contact-info-content">
+            <h2>About Me</h2>
+            <img class="profile-img" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=400&q=80" alt="Rohit">
+            <h3>Rohit M Hudge</h3>
+            <p><strong>Profession:</strong> iOS and Web Developer</p>
+            <p><strong>Email:</strong> <a href="mailto:hudge.rohit@gmail.com">hudge.rohit@gmail.com</a></p>
+            <p><strong>Location:</strong> Bengaluru, India</p>
+            <p><strong>Bio:</strong> I love building beautiful and functional applications. Whether it's crafting a smooth mobile experience or a responsive web app, I'm always eager to learn and create.</p>
+            <br>
+            <a class="btn" href="#">Go Back</a>
+        </div>
+    </div>
+
+</body>
+</html>
